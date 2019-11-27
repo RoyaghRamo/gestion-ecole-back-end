@@ -48,18 +48,6 @@ public class User implements UserDetails {
         return null;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public void setConfirmPassword(String confirmPassword) {
-        this.confirmPassword = confirmPassword;
-    }
-
     @Override
     public String getPassword() {return password;}
 
